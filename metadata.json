@@ -2,7 +2,7 @@
     "id": "FavoredFools",
     "name": "Favored Fools",
     "author": ["theAstra"],
-    "description": "A small QoL mods that lets the player favorite cards. Press 'F' to favorite and unfavorite! Special thank you to La Ginger for the extra art for this mod!",
+    "description": "A small QoL mod that lets the player favorite cards. Press 'F' to favorite and unfavorite! Special thank you to La Ginger for the extra art for this mod!",
     "prefix": "fav",
     "main_file": "main.lua",
 	"priority": 0,
