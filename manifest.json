@@ -1,0 +1,9 @@
+{
+	"name": "Favored Fools",
+	"description": "A small QoL mods that lets the player favorite cards",
+	"version_number": "1.0.0",
+	"website_url": "https://github.com/the-Astra/FavoredFools",
+	"dependencies": [
+		"Steamodded-Steamodded-26.1002.0"
+	]
+}

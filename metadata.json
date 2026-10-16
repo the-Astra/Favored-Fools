@@ -1,0 +1,16 @@
+{
+    "id": "FavoredFools",
+    "name": "Favored Fools",
+    "author": ["theAstra"],
+    "description": "A small QoL mods that lets the player favorite cards. Press 'F' to favorite and unfavorite! Special thank you to La Ginger for the extra art for this mod!",
+    "prefix": "fav",
+    "main_file": "main.lua",
+	"priority": 0,
+	"badge_colour": "7A9E9F",
+	"badge_text_colour": "FFFFFF",
+    "version": "1.0.0",
+	"dependencies": [
+		"Steamodded (>=26.1002.0)"
+	],
+	"allow_redistribution": true
+}
