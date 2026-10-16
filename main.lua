@@ -85,7 +85,7 @@ function create_card(...)
                 G.CONTROLLER.locks.fav_anim = true
                 G.E_MANAGER:add_event(Event({
                     trigger = 'after',
-                    delay = 0.3,
+                    delay = 0.5,
                     func = function()
                         G.CONTROLLER.locks.fav_anim = false
                     return true
