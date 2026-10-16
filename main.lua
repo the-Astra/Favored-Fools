@@ -49,6 +49,8 @@ SMODS.Keybind {
                 else
                     profile.fav_favorites[target.config.center_key] = SMODS.table_size(profile.fav_favorites) + 1
                 end
+                target:juice_up()
+                play_sound('gold_seal', 1.2, 0.4)
             end
         end
     end
