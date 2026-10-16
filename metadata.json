@@ -12,5 +12,6 @@
 	"dependencies": [
 		"Steamodded (>=26.1002.0)"
 	],
-	"allow_redistribution": true
+	"allow_redistribution": true,
+    "icon_path": "modicon.png"
 }
