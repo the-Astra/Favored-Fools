@@ -35,7 +35,7 @@ SMODS.Keybind {
     action = function(self)
         if G.CONTROLLER.hovering.target then
             local target = G.CONTROLLER.hovering.target
-            if target:is(Card) and G.P_CENTERS[target.config.center_key] ~= nil then
+            if target:is(Card) and G.P_CENTERS[target.config.center_key] ~= nil and not SMODS.is_playing_card(target) then
                 local profile = G.PROFILES[G.SETTINGS.profile]
                 profile.fav_favorites = profile.fav_favorites or {}
                 if profile.fav_favorites[target.config.center_key] then
